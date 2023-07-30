@@ -9,9 +9,9 @@ const Contact = () => {
     <section id='contact'>
     <h5>Get In Touch</h5>
     <h2>Contact Me</h2>
+
     <div className="container contact__container">
       <div className="contact__options">
-        
         <article className="contact__option">
         <HiOutlineMail className='contact__option-icon' />
           <h4>Email</h4>
@@ -23,7 +23,7 @@ const Contact = () => {
           <BiLogoMessenger className='contact__option-icon'/>
           <h4>Messenger</h4>
           <h5>sangita.maity.29</h5>
-          <a href="https://m.me/sangita.maity.29">Send a Message</a>
+          <a href="http://m.me/Dr.%20Moumita%20Maity">Send a Message</a>
         </article>
         
         <article className="contact__option">
@@ -34,6 +34,7 @@ const Contact = () => {
         </article>
       </div>
       {/* END OF CONTACT OPTIONS */}
+    
       <form action="">
         <input type="text" name='name' placeholder='Your Full Name' required/>
         <input type="email" name='email' placeholder='Your Email' required/>
